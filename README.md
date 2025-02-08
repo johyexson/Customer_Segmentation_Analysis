@@ -3,6 +3,7 @@
 # Table of Contents
 - [Case Study](#case-study)
 - [Data Source](#data-source)
+- [Tools](#tools)
 - [Method of Analysis](#method-of-analysis)
 - [Exploratory Data Analysis](#exploratory-data-analysis)
 - [Data Clustering](#data-clustering)
@@ -13,39 +14,22 @@
 Customer segmentation in order to classify customer based on demographics, purchasing behaviour and other characteristics. Utilized K-means algorithm to segment telecommunication customers based on their value and profitability, in order to facilitate strategic planning and effective decision making
 # Data Source
 The data was gotten from Maven Analytics Data Playground.[Link](https://mavenanalytics.io/data-playground?search=customer%20churn)
-# Method of Analysis 
-- Importing the data cleaning package and loading the dataset for wrangling and transformation 
-```python
-import pandas as pd
-data= pd.read_csv(r'telecom_customer_churn.csv')
-data.head()
-```
-- Checking information about data to examine its structure, characteristics and other information 
-```python
-data.info()
-data.describe()
-data.count()
-```
-- Checking for duplicates and removing duplicated rows from the data
-```python
-data.duplicated()
-data.drop_duplicates(inplace= True)
-data.duplicated().sum()
-```
-- Removing columns that are irrelevant to the data
-```python
-data.columns
-data.drop(columns= ["Latitude", "Longitude"], inplace = True)
-```
-- Checking for columns with null values and filling them with data
-```python
-data.isnull().sum()
-data.fillna(['Not Applicable'], inplace= True)
-```
-- Converting data types in multiple columns to ensure consistency in data formats
-```python
-data.dtypes
-data= data.astype({' Dependents': 'int','Zip_Code': 'int','Referrals': 'int','Tenure': 'int','Avg_Monthly_Long_Distance_Charges': 'int','Avg_Monthly_GB Download': 'int','Monthly_Charge': 'int','Total_Charges': 'int','Total_Refunds': 'int','Total_Extra_Data_Charges': 'int','Total_Long_Distance_Charges': 'int','Total_Revenue': 'int'})
-```
+# Tools
+- Python
+Libraries and packages used:
+- Pandas
+- Numpy
+- Matplotlib
+- Seaborn
+- Scikit-learn
+# Method of Analysis
+I conducted a customer segmentation based on value using the K-means clustering approach and applied an analytic pipeline which involved five stages:
+- Importing the necessary libraries and packages and loading the dataset
+- Data preprocessing which involved data cleaning and transformation
+- Exploratory Data Analysis(EDA)
+- Data clustering using K-means algorithm
+- Data Visualization
+# Exploratory Data Analysis
+This process started with data cleaning and transformation, then I performed statistical analysis using the Pearson correlation method to analyse relationships between variables in the dataset.
 # Code
 You can view the full code [here](Data_Cleaning_with_Python.ipynb)
