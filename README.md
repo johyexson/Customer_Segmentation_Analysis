@@ -49,4 +49,4 @@ I applied the unsupervised machine learning approach using K-means algorithm for
 
 # Findings and Recommendations
 # Code
-You can view the full code [here]()
+You can view the full code [here](Customer_Segmentation_Analysis.ipynb)
