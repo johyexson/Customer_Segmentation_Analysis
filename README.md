@@ -22,7 +22,7 @@ Libraries and packages used:
 - Numpy
 - Matplotlib
 - Seaborn
-- scipy
+- Scipy
 - Scikit-learn
 # Method of Analysis
 I conducted a customer segmentation based on value using the K-means clustering approach and applied an analytic pipeline which involved five stages:
@@ -30,7 +30,7 @@ I conducted a customer segmentation based on value using the K-means clustering 
 - Data preprocessing which involved data cleaning and transformation
 - Exploratory Data Analysis(EDA)
 - Data clustering using K-means algorithm
-- Clustering Analysis
+- Clustering Analysis and visualization
 # Exploratory Data Analysis
 After data cleaning and data transformation, I performed statistical analysis using the Pearson correlation coefficient method to detect any relationships, associations and patterns present between variables in the dataset.describing the key patterns, trends, and anomalies discovered by examining your data through visual representations and summary statistics, essentially providing an overview of what the data reveals without making strong conclusions, but highlighting areas of interest for further investigation.  This involves investigating interactions between two or more variables through visualizations and statistical 
 # Hypothesis
