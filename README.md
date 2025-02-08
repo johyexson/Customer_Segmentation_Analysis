@@ -12,7 +12,7 @@
 - [Findings and Recommendations](#findings-and-recommendations)
 
 # Case Study
-Customer segmentation in order to classify customer based on demographics, purchasing behaviour and other characteristics. Utilized K-means algorithm to segment telecommunication customers based on their value and profitability, in order to facilitate strategic planning and effective decision making
+A fictional company wants to identify its high-value customers in order to tailor
 # Data Source
 The data was gotten from Maven Analytics Data Playground.[Link](https://mavenanalytics.io/data-playground?search=customer%20churn)
 # Tools
