@@ -42,6 +42,9 @@ Here are my assumptions based on the findings of the EDA conducted:
 - These customers also provide more value as they bring more referrals
 # Data Clustering
 I applied the unsupervised machine learning approach using K-means algorithm for the customer segmentation. I created two segments that were value based and utilized the Elbow method to determine the optimal number of clusters. The visually represented segments are presented below:
+![](Segment_1.png)
+
+![](Segment_2.png)
 
 
 # Findings and Recommendations
