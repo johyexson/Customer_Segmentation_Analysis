@@ -4,6 +4,8 @@
 - [Case Study](#case-study)
 - [Data Source](#data-source)
 - [Method of Analysis](#method-of-analysis)
+- [Exploratory Data Analysis](#exploratory-data-analysis)
+- [Data Clustering](#data-clustering)
 - [Code](#code)
 - [Findings and Recommendations](#findings-and-recommendations)
 
