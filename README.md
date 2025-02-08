@@ -6,6 +6,7 @@
 - [Tools](#tools)
 - [Method of Analysis](#method-of-analysis)
 - [Exploratory Data Analysis](#exploratory-data-analysis)
+- [Hypothesis](#hypothesis)
 - [Data Clustering](#data-clustering)
 - [Code](#code)
 - [Findings and Recommendations](#findings-and-recommendations)
@@ -15,12 +16,13 @@ Customer segmentation in order to classify customer based on demographics, purch
 # Data Source
 The data was gotten from Maven Analytics Data Playground.[Link](https://mavenanalytics.io/data-playground?search=customer%20churn)
 # Tools
-- Python
+### Python
 Libraries and packages used:
 - Pandas
 - Numpy
 - Matplotlib
 - Seaborn
+- scipy
 - Scikit-learn
 # Method of Analysis
 I conducted a customer segmentation based on value using the K-means clustering approach and applied an analytic pipeline which involved five stages:
@@ -28,8 +30,12 @@ I conducted a customer segmentation based on value using the K-means clustering 
 - Data preprocessing which involved data cleaning and transformation
 - Exploratory Data Analysis(EDA)
 - Data clustering using K-means algorithm
-- Data Visualization
+- Clustering Analysis
 # Exploratory Data Analysis
-This process started with data cleaning and transformation, then I performed statistical analysis using the Pearson correlation method to analyse relationships between variables in the dataset.
+After data cleaning and data transformation, I performed statistical analysis using the Pearson correlation coefficient method to detect any relationships, associations and patterns present between variables in the dataset.describing the key patterns, trends, and anomalies discovered by examining your data through visual representations and summary statistics, essentially providing an overview of what the data reveals without making strong conclusions, but highlighting areas of interest for further investigation.  This involves investigating interactions between two or more variables through visualizations and statistical 
+# Hypothesis
+Here are my assumptions based on the findings of the EDA conducted:
+- Customers that have stayed longer with the company yield more revenue
+- These customers also provide more value as they bring more referrals
 # Code
-You can view the full code [here](Data_Cleaning_with_Python.ipynb)
+You can view the full code [here]()
