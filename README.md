@@ -12,7 +12,7 @@
 - [Code](#code)
 
 # Case Study
-A service providing company wants to identify its high-value customers in order to tailor and develop focused marketing campaigns as well as allocate resources more effectively by prioritizing customer segments with the highest potential for revenue and profitability.
+A service providing company wants to identify its high-value customers in order to tailor and develop focused marketing campaigns as well as allocate resources more effectively.
 # Data Source
 The data was gotten from Maven Analytics Data Playground.[Link](https://mavenanalytics.io/data-playground?search=customer%20churn)
 # Tools
@@ -56,13 +56,13 @@ Then I employed a scatter plot to depict each of the clusters delineated by the 
 ## Segment_1
 Insights:
 - Cluster A: These customers represented with purple dots are fairly new to the company and don't have any referrals. This might be because they recently joined.
-- Cluster B: These customers represented with yellow dots have longer tenures but have no referrals. This is the possibility of inactiveness or nonchalance.
-- Cluster C: These customers represented with red dots range from those that joined newly to those with longer tenures who have more referrals. This indicates that they are active and contribute significantly to the company.
+- Cluster B: These customers represented with yellow dots have longer tenures but have no referrals. This indicates a possibility of inactiveness or nonchalance.
+- Cluster C: These customers represented with red dots range from those that joined newly to those with longer tenures who have more referrals. This shows that they are active and contribute significantly to the company.
 - Cluster D: These customers represented with green dots are fairly new to the company but they also have more referrals. This also shows that they are active and contribute significantly to the company.
 
 Marketing Strategy:
-It's always less expensive to maintain an existing relationship than to create a new one. So, customers in Cluster C and D are valuable customers that show great potentials and should be targeted with strategies for retainment.
-
+It's always less expensive to maintain an existing relationship than to create a new one. So, customers in Cluster C and D are valuable customers that show great potentials and should be targeted with strategies for retention. 
+To retain these customers and encourage repeat business, the company could reward them for bringing in referrals, and offer loyalty programmes. These programmes can include rewards for long-term contracts, discounts, or exclusive access to new products and services. 
 ## Segment_2
 Insights:
 - Cluster A: These customers represented with purple dots are newer to the company but generate more revenue. This shows profitability and there are prospects for longevity.
@@ -71,7 +71,7 @@ Insights:
 - Cluster D: These customers represented with green dots have been with the company for some time but generate a bit lower revenue. There is the however the potential for growth among these customers as most of them are fairly new to the company.
 
 Marketing Strategy:
-Customer lifetime value (CLV) is a measure of the total income a business can expect to bring in from a typical customer for as long as that person or account remains a client.
-Those customers that show high level of customer lifetime value (CLV), which is a measure of the average revenue generated over their entire relationship with the company should be prioritized for campaign.
+Those customers that show high level of customer lifetime value (CLV), which is a measure of the average revenue generated over their entire relationship with the company should be provided compelling services that drive retention.
+These users can then be passed over with regard to acquisition campaigns, saving budget that can be better spent elsewhere.
 # Code
 You can view the full code [here](Customer_Segmentation_Analysis.ipynb)
