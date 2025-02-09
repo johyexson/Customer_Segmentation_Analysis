@@ -54,10 +54,10 @@ Then I employed a scatter plot to depict each of the clusters delineated by the 
 # Findings and Recommendations
 ## Segment_1
 Insights:
-- Cluster A: These customers represented with purple dots
-- Cluster B: These customers represented with yellow dots
-- Cluster C: These customers represented with red dots
-- Cluster D: These customers represented with green dots.
+- Cluster A: These customers represented with purple dots are.....This could indicate that
+- Cluster B: These customers represented with yellow dots are...They may be
+- Cluster C: These customers represented with red dots are...They might
+- Cluster D: These customers represented with green dots are...There is a possible
 
 Marketing Strategy:
 pinpoint your most valuable customers and tailor marketing strategies to retain them. it's always less expensive to maintain an existing relationship than to create a new one.Customer lifetime value (CLV) is a measure of the total income a business can expect to bring in from a typical customer for as long as that person or account remains a client.
@@ -65,11 +65,12 @@ pinpoint your most valuable customers and tailor marketing strategies to retain 
 This shows the level of their customer lifetime value (CLV), which is a measure of the average revenue generated over their entire relationship with the company.
 ## Segment_2
 Insights:
-- Cluster A: These customers represented with purple dots
-- Cluster B: These customers represented with yellow dots
-- Cluster C: These customers represented with red dots
-- Cluster D: These customers represented with green dots.
+- Cluster A: These customers represented with purple dots are...They might 
+- Cluster B: These customers represented with yellow dots are...This could indicate that
+- Cluster C: These customers represented with red dots are....They could
+- Cluster D: These customers represented with green dots are...There is the probability of
 
 Marketing Strategy:
+It would be better
 # Code
 You can view the full code [here](Customer_Segmentation_Analysis.ipynb)
