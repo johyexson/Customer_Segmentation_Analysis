@@ -41,12 +41,20 @@ Here are my assumptions based on the findings of the EDA conducted:
 - Customers that have stayed longer with the company yield more revenue
 - These customers also provide more value as they bring more referrals
 # Data Clustering
-I applied the unsupervised machine learning approach using K-means algorithm for the customer segmentation. I created two segments that were value based and utilized the Elbow method to determine the optimal number of clusters. The visually represented segments are presented below:
+I applied the unsupervised machine learning approach using K-means algorithm for the customer segmentation. The several steps of the algorithm are as follows:
+- Utilized the Elbow method to determine the optimal number of clusters.
+- Initialized K as the centroid randomly
+- Calculated the Euclidean distance of every data point from every centroid in the space.
+- Allocated every data point to the nearest centroid based on the calculated distance.
+- Iterated until the centroids and data points remain the same and fixed.
+Then I employed a scatter plot to depict each of the clusters delineated by the K-Means algorithm:
 ![](Segment_1.png)
 
 ![](Segment_2.png)
 
-
 # Findings and Recommendations
+## Segment 1
+Insights:
+- Cluster A: The customers represented with blue dots
 # Code
 You can view the full code [here](Customer_Segmentation_Analysis.ipynb)
