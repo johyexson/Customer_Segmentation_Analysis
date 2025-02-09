@@ -39,6 +39,7 @@ This visual representation shows that there is a strong positive relationship be
 # Hypothesis
 This is my assumption based on the findings of the EDA conducted:
 - Customers that spend a significant number of time(tenure) with the company yield profitability for the company in terms of revenue.
+It is therefore important to pinpoint these valuable customers and tailor marketing strategies to retain them.
 # Data Clustering
 I applied the unsupervised machine learning approach using K-means algorithm for the customer segmentation. The several steps of the algorithm are as follows:
 - Utilized the Elbow method to determine the optimal number of clusters.
@@ -54,23 +55,23 @@ Then I employed a scatter plot to depict each of the clusters delineated by the 
 # Findings and Recommendations
 ## Segment_1
 Insights:
-- Cluster A: These customers represented with purple dots are.....This could indicate that
-- Cluster B: These customers represented with yellow dots are...They may be
-- Cluster C: These customers represented with red dots are...They might
-- Cluster D: These customers represented with green dots are...There is a possible
+- Cluster A: These customers represented with purple dots are fairly new to the company and don't have any referrals. This might be because they recently joined.
+- Cluster B: These customers represented with yellow dots have longer tenures but have no referrals. This is the possibility of inactiveness or nonchalance.
+- Cluster C: These customers represented with red dots range from those that joined newly to those with longer tenures who have more referrals. This could indicate that they are active and contribute significantly to the company.
+- Cluster D: These customers represented with green dots are fairly new to the company but they also have more referrals. There is also shows that they are active and contribute significantly to the company.
 
 Marketing Strategy:
-pinpoint your most valuable customers and tailor marketing strategies to retain them. it's always less expensive to maintain an existing relationship than to create a new one.Customer lifetime value (CLV) is a measure of the total income a business can expect to bring in from a typical customer for as long as that person or account remains a client.
+It's always less expensive to maintain an existing relationship than to create a new one. So, customers in Cluster C and D are valuable customers that show great potentials and should be targeted with strategies for retainment.
 
-This shows the level of their customer lifetime value (CLV), which is a measure of the average revenue generated over their entire relationship with the company.
 ## Segment_2
 Insights:
-- Cluster A: These customers represented with purple dots are...They might 
-- Cluster B: These customers represented with yellow dots are...This could indicate that
+- Cluster A: These customers represented with purple dots are 
+- Cluster B: These customers represented with yellow dots 
 - Cluster C: These customers represented with red dots are....They could
 - Cluster D: These customers represented with green dots are...There is the probability of
 
 Marketing Strategy:
-It would be better
+Customer lifetime value (CLV) is a measure of the total income a business can expect to bring in from a typical customer for as long as that person or account remains a client.
+This shows the level of their customer lifetime value (CLV), which is a measure of the average revenue generated over their entire relationship with the company.
 # Code
 You can view the full code [here](Customer_Segmentation_Analysis.ipynb)
