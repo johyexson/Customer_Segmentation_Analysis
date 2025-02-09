@@ -55,13 +55,13 @@ Then I employed a scatter plot to depict each of the clusters delineated by the 
 
 # Findings and Recommendations
 ## Segment_1
-Insights:
+**Insights**:
 - Cluster A: These customers represented with purple dots are fairly new to the company and don't have any referrals. This might be because they recently joined.
 - Cluster B: These customers represented with yellow dots have longer tenures but have no referrals. This indicates a possibility of inactiveness or nonchalance.
 - Cluster C: These customers represented with red dots range from those that joined newly to those with longer tenures who have more referrals. This shows that they are active and contribute significantly to the company.
 - Cluster D: These customers represented with green dots are fairly new to the company but they also have more referrals. This also shows that they are active and contribute significantly to the company.
 
-Marketing Strategy:
+**Marketing Strategy**:
 
 It's always less expensive to maintain an existing relationship than to create a new one. So, customers in Cluster C and D are valuable customers that show great potentials and should be targeted with strategies for retention. 
 To retain these customers and encourage repeat business, the company could reward them for bringing in referrals, and offer loyalty programmes. These programmes can include rewards for long-term contracts, discounts, or exclusive access to new products and services. 
