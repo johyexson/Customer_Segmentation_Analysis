@@ -68,7 +68,7 @@ Insights:
 - Cluster A: These customers represented with purple dots are newer to the company but generate more revenue. This shows profitability and there are prospects for longevity.
 - Cluster B: These customers represented with yellow dots have longer tenures and they also generate a lot revenue. This indicates that they are high-value customers.
 - Cluster C: These customers represented with red dots range from those that newly joined to those with longer tenures, but they also generate a substantial amount of revenue. They also have the potential of being profitable customers.
-- Cluster D: These customers represented with green dots have been with the company for some time but generate a bit lower revenue. There is the however the potential for growth among these customers as most of them are fairly new to the company.
+- Cluster D: These customers represented with green dots have been with the company for some time but generate a bit lower revenue. There seems to be potential for growth among these customers as most of them are fairly new to the company.
 
 Marketing Strategy:
 Those customers that show high level of customer lifetime value (CLV), which is a measure of the average revenue generated over their entire relationship with the company should be provided compelling services that drive retention.
