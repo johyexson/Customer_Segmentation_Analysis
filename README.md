@@ -12,7 +12,7 @@
 - [Code](#code)
 
 # Case Study
-A service providing company wants to identify its high-value customers in order to tailor and develop focused marketing campaigns as well as allocate resources more effectively.
+A service providing company with 5,417 customers across Chicago, wants to identify its high-value customers in order to tailor and develop focused marketing campaigns as well as allocate resources more effectively.
 # Data Source
 The data was gotten from Maven Analytics Data Playground.[Link](https://mavenanalytics.io/data-playground?search=customer%20churn)
 # Tools
