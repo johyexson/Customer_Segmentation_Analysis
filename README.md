@@ -57,21 +57,21 @@ Then I employed a scatter plot to depict each of the clusters delineated by the 
 Insights:
 - Cluster A: These customers represented with purple dots are fairly new to the company and don't have any referrals. This might be because they recently joined.
 - Cluster B: These customers represented with yellow dots have longer tenures but have no referrals. This is the possibility of inactiveness or nonchalance.
-- Cluster C: These customers represented with red dots range from those that joined newly to those with longer tenures who have more referrals. This could indicate that they are active and contribute significantly to the company.
-- Cluster D: These customers represented with green dots are fairly new to the company but they also have more referrals. There is also shows that they are active and contribute significantly to the company.
+- Cluster C: These customers represented with red dots range from those that joined newly to those with longer tenures who have more referrals. This indicates that they are active and contribute significantly to the company.
+- Cluster D: These customers represented with green dots are fairly new to the company but they also have more referrals. This also shows that they are active and contribute significantly to the company.
 
 Marketing Strategy:
 It's always less expensive to maintain an existing relationship than to create a new one. So, customers in Cluster C and D are valuable customers that show great potentials and should be targeted with strategies for retainment.
 
 ## Segment_2
 Insights:
-- Cluster A: These customers represented with purple dots are 
-- Cluster B: These customers represented with yellow dots 
-- Cluster C: These customers represented with red dots are....They could
-- Cluster D: These customers represented with green dots are...There is the probability of
+- Cluster A: These customers represented with purple dots are newer to the company but generate more revenue. This shows profitability and there are prospects for longevity.
+- Cluster B: These customers represented with yellow dots have longer tenures and they also generate a lot revenue. This indicates that they are high-value customers.
+- Cluster C: These customers represented with red dots range from those that newly joined to those with longer tenures, but they also generate a substantial amount of revenue. They also have the potential of being profitable customers.
+- Cluster D: These customers represented with green dots have been with the company for some time but generate a bit lower revenue. There is the however the potential for growth among these customers as most of them are fairly new to the company.
 
 Marketing Strategy:
 Customer lifetime value (CLV) is a measure of the total income a business can expect to bring in from a typical customer for as long as that person or account remains a client.
-This shows the level of their customer lifetime value (CLV), which is a measure of the average revenue generated over their entire relationship with the company.
+Those customers that show high level of customer lifetime value (CLV), which is a measure of the average revenue generated over their entire relationship with the company should be prioritized for campaign.
 # Code
 You can view the full code [here](Customer_Segmentation_Analysis.ipynb)
